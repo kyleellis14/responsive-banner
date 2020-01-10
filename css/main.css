@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #fff;
   background-color: #495562;
 }
@@ -7,4 +7,46 @@ html {
 .btn {
   background-color: #495562;
   border-color: #97a49b;
+}
+
+.banner-img {
+  max-height: 500px;
+}
+
+.btn-main {
+  color: #efefef;
+  border-color: #97a49b;
+}
+
+.btn-main:hover {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #495562;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .the-btn {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(73, 85, 98, .9));
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .btn-main {
+    border-color: #efefef;
+  }
+
 }
